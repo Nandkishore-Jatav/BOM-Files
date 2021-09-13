@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open/ Close Window Document</title>
+</head>
+<body>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo necessitatibus expedita quisquam, rerum labore aperiam?</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quaerat?</p>
+    <button onclick="openWindow()">Open</button>
+    <button onclick="closeWindow()">Close</button>
+    <script>
+        const windows;
+        function openWindow(){
+            windows = window.open("https://www.youtube.com/embed/RtXA60HewUw", "_blank", "width= 560, height=315 top=300, left = 400" )
+        }
+        function closeWindow(){
+            windows.close();
+        }
+    </script>
+</body>
+</html>

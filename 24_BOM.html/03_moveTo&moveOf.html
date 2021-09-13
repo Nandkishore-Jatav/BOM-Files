@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveTo & MoveOf Document</title>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus provident obcaecati blanditiis quisquam laboriosam quasi in possimus suscipit voluptas a.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate maiores, veritatis, nesciunt vero accusantium beatae mollitia accusamus quam incidunt voluptas temporibus praesentium aliquid ut esse eligendi. Laudantium odio veritatis molestiae.</p>
+    <button onclick="openWin()">Open</button>
+    <button onclick="moveto()">MoveTo</button>
+    
+
+    <script>
+        const win;
+
+        function operWin(){
+            win = window.open("", "_blank", "width= 560, height=315 top=300, left = 400");
+            win.window.document("How are you Lorem ipsum dolor sit amet, consectetur");
+        }
+        function moveto(){
+            win = window.moveTo(100, 100);
+        }
+
+    </script>
+
+</body>
+</html>
